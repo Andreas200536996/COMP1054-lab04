@@ -1,0 +1,82 @@
+/*General*/
+
+.wrapper {
+    color: #333;
+
+    /*Question 5 */
+    width: 80vw;
+    background-color: grey;
+    border: 5px solid #333;
+
+    margin: 0 auto;
+
+}
+
+/* Question 2 */
+html {
+    background-image: url(./img/qingbao-meng-01_igFr7hd4-unsplash.jpg);
+}
+
+
+
+
+
+
+
+/*Typography*/
+
+
+.wrapper header{ 
+
+    padding: 1em;
+    text-shadow: 1px 1px 2px grey;
+
+    /*Question 7*/
+    width: 90%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.wrapper img {
+
+    height: 30%;
+    /* Question 3 */
+    filter: blur(1px);
+    filter: contrast(150%);
+
+    /*Question 6 */
+    width: 30%;
+    align-items: center;
+}
+
+/* Question 4 */
+.wrapper img:hover {
+    transform: scaleY(-1);
+}
+
+
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper:nth-child(1) {
+    text-align: center;
+}
+
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+main:nth-child(2) p {
+    color: aliceblue;
+}
+
+footer:nth-of-type(1) p {
+    font-weight: bold;
+}
+
+h3+ul {
+    border: 1px solid black;
+
+}
